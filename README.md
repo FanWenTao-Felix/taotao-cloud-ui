@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -43,7 +42,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-=======
 # taotao-cloud-ui
 基于react antd管理taotao cloud的后台管理系统
->>>>>>> 22467aa5ea6284e2f7c500f46da913206ddf51ae
+22467aa5ea6284e2f7c500f46da913206ddf51ae
