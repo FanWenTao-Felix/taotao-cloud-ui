@@ -1,0 +1,14 @@
+stages:
+  - name: push-image
+    steps:
+      - publishImageConfig:
+          dockerfilePath: ./Dockerfile
+          buildContext: .
+          tag: taotao-cloud/ui:${CICD_EXECUTION_SEQUENCE}
+          pushRemote: true
+          registry: http://192.168.214.131:88/
+  - name: deploy
+    steps:
+      - applyYamlConfig:
+          path: ./Deployment.yaml
+timeout: 60
